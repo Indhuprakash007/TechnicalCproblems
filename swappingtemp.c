@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() 
+{
+   int a=10, b=6, temp;
+   temp = a;
+   a=b;
+   b=temp;
+  
+   printf("a = %d\n",a);
+   printf("b = %d",b);
+}
